@@ -2,7 +2,8 @@
 
 A self-service web application built with Next.js, React, and Supabase for evaluating AI agent performance. This platform allows users to manage AI agents, ingest evaluation data, and visualize performance metrics through interactive dashboards.
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=AI+Agent+Evaluation+Dashboard)
+![Dashboard Preview](Dashboard.png)
+![Analytics Preview](Analytics.png)
 
 ## 🚀 Features
 

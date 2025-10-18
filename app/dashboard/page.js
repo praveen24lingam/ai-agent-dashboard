@@ -152,7 +152,7 @@ export default function Dashboard() {
           <span className="ml-2 px-2 py-1 rounded bg-indigo-100 text-xs text-indigo-700 font-semibold">Assignment A</span>
         </div>
         <div className="flex items-center gap-2">
-          <span className="text-sm text-gray-500">by Your Name</span>
+          <span className="text-sm text-gray-500">by Divya</span>
         </div>
       </header>
       <Navigation />
@@ -305,7 +305,7 @@ export default function Dashboard() {
       </main>
     {/* Footer */}
     <footer className="w-full py-4 px-6 bg-white/80 border-t border-gray-200 text-center text-sm text-gray-500 mt-8">
-      {`© ${new Date().getFullYear()} Your Name — AI Agent Evaluation Assignment`}
+      {`© ${new Date().getFullYear()} Divya Sonla — AI Agent Evaluation Assignment`}
     </footer>
   </div>
   )
