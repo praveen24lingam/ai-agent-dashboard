@@ -10,12 +10,14 @@ CREATE TABLE IF NOT EXISTS public.agents (
   user_id UUID NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
   name VARCHAR(255) NOT NULL,
   description TEXT,
+  webhook_url TEXT,
   created_at TIMESTAMPTZ DEFAULT NOW(),
   updated_at TIMESTAMPTZ DEFAULT NOW()
 );
 
 -- Add missing columns if table already existed without them
 ALTER TABLE public.agents ADD COLUMN IF NOT EXISTS description TEXT;
+ALTER TABLE public.agents ADD COLUMN IF NOT EXISTS webhook_url TEXT;
 ALTER TABLE public.agents ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ DEFAULT NOW();
 ALTER TABLE public.agents ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ DEFAULT NOW();
 
