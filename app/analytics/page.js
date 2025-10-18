@@ -38,12 +38,14 @@ export default function Analytics() {
       loadData()
     }
     checkAuth()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router, supabase])
 
   useEffect(() => {
     if (user) {
       loadData()
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedAgent, selectedPeriod, currentPage])
 
   const loadData = async () => {
