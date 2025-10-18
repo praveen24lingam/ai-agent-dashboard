@@ -7,7 +7,7 @@ A self-service web application built with Next.js, React, and Supabase for evalu
 ## 🚀 Features
 
 ### Core Functionality
-- **Multi-tenant Architecture**: Each user sees only their own data with Row Level Security (RLS)
+- **Multi-tenant Architecture**: Each user sees only their own data with Rgit ow Level Security (RLS)
 - **Agent Management**: Create, update, and delete AI agents with custom configurations
 - **Evaluation Ingestion**: REST API for ingesting evaluation results from your AI systems  
 - **Interactive Dashboards**: Real-time charts and KPIs for performance monitoring
